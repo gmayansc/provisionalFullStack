@@ -1,0 +1,52 @@
+.container {
+  margin-top: 20px;
+  /* height: 80vh; */
+}
+
+.user-name-container {
+  margin-bottom: 20px;
+  justify-content: center;
+}
+
+.user-name-container .user-exit {
+  margin-left: 20px;
+}
+
+.user-logo-container {
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.user-logo {
+  height: 150px;
+  width: 150px;
+}
+
+.user-points-container {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  justify-content: center;
+}
+
+#players-left,
+#players-right {
+  justify-content: space-between;
+}
+
+#game-board {
+  margin-top: 60px;
+}
+
+#game-board .board-row .board-cell {
+  border: 1px solid black;
+  height: 30px;
+  width: 30px;
+}
+
+.hidden {
+  display: none !important;
+}
+
+#backpath {
+  margin: 10px 40px;
+}
