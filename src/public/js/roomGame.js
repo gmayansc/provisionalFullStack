@@ -25,7 +25,7 @@ $(document).ready(async function () {
     renderRooms(rooms);
     renderPlayers(rooms);
   }
-  // GET DATA FUNCTIONS
+  // FUNCIONES GET DATA
 
   function getUserFromLocalStorage() {
     const user = localStorage.getItem('user');
@@ -249,7 +249,7 @@ $(document).ready(async function () {
     return $div.append('<span>').text(room.state);
   }
 
-  // LOGIC
+  // LOGICA
   async function addUserToRoom(room) {
     if (user && !room.users.includes(user._id)) {
       try {
@@ -265,7 +265,7 @@ $(document).ready(async function () {
     }
   }
 
-  // EVENTS INTERACTIONS
+  // INTERACCIONES EVENTOS
 
   function handleImageDragStart(e) {
     dragElement = $(this).clone();
@@ -309,7 +309,7 @@ $(document).ready(async function () {
         $(dragElement).appendTo(playersContainerElement);
         localStorage.setItem('favouriteRoom', room._id);
 
-        // TODO UPDATE ROOM STATE
+        // TODO ACTULIZACION ESTADO ROOM
         let game = null;
         if (!updatedRoom.game) {
           game = await createGame(room);

@@ -52,7 +52,7 @@ app.use('/', indexRouter);
 const server = http.createServer(app);
 
 const io = new Server(server, {
-  /* options */
+  
 });
 
 io.on('connection', socket => {

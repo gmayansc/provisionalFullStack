@@ -203,7 +203,7 @@ $(document).ready(async function () {
     }
   }
 
-  // PLAY LOGIC
+  // LOGICA DEL JUEGO
   function getCellTarget(rowId, colId) {
     return $(`[data-row=${rowId}][data-col=${colId}]`).get(0);
   }
@@ -347,7 +347,7 @@ $(document).ready(async function () {
     socket.emit('playerOut');
   }
 
-  // NAVIGATION
+  // NAVEGACIÓN
 
   function setBackNavigation() {
     const backpathButton = $('#backpath').get(0);

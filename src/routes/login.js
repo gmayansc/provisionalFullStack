@@ -13,8 +13,7 @@ router.post('/', async (req, res) => {
   if (isValidUser) {
     const users = await UserController.getUserByEmail(body.email);
 
-    // TODO DELETE USER PASSWORD ON RESPONSE
-    // delete user.password;
+    
     res.statusCode = 200;
     res.json(users[0]);
   } else {
