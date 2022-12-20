@@ -54,7 +54,7 @@ $(document).ready(function () {
     event.preventDefault();
 
     if (!isFilesReady) {
-      alert('Todavía se está procesando la imagen ...');
+      alert('Procesando la imagen, ten paciencia ...');
       return false;
     }
 
