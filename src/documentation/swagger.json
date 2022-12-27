@@ -574,7 +574,7 @@
         },
         "state": {
           "type": "string",
-          "enum": ["Esperando", "Listo", "Fuera"]
+          "enum": ["¡Oops! Aún no hay ningún jugador en esta sala...", "Listo", "Fuera"]
         }
       }
     },
@@ -629,7 +629,7 @@
         },
         "state": {
           "type": "string",
-          "enum": ["Esperando jugadores", "En curso"]
+          "enum": ["¡Oops! Aún no hay ningún jugador en esta sala...", "En curso"]
         },
         "game": {
           "type": "string",
@@ -656,7 +656,7 @@
         },
         "state": {
           "type": "string",
-          "enum": ["Esperando jugadores", "En curso"]
+          "enum": ["¡Oops! Aún no hay ningún jugador en esta sala...", "En curso"]
         },
         "game": {
           "type": "string",

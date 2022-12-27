@@ -99,7 +99,7 @@ $(document).ready(async function () {
     const room = {
       name,
       users: [],
-      state: 'Esperando jugadores',
+      state: '¡Oops! Aún no hay ningún jugador en esta sala...',
       game: null,
     };
 
@@ -230,7 +230,7 @@ $(document).ready(async function () {
   }
 
   function getRowSection(room) {
-    return $('<div>', { class: 'row draggable', 'data-room-id': room._id });
+    return $('<div>', { class: 'row sala-item draggable', 'data-room-id': room._id });
   }
 
   function getRoomNameSection(room) {

@@ -6,7 +6,7 @@ const roomSchema = new Schema({
   users: [mongoose.ObjectId],
   state: {
     type: String,
-    enum: ['Esperando jugadores', 'En curso'],
+    enum: ['¡Oops! Aún no hay ningún jugador en esta sala...', 'En curso'],
   },
   game: mongoose.ObjectId,
 });
