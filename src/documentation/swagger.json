@@ -2,8 +2,8 @@
   "swagger": "2.0",
   "info": {
     "version": "1.0.0",
-    "title": "Swagger Javascript Game API",
-    "description": "Javascript Game API documentation (P9 - Project)"
+    "title": "Swagger Javascript Fullstack API",
+    "description": "Javascript Fullstack API documentation (P9)"
   },
   "host": "localhost:3000",
   "basePath": "/api",
