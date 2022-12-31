@@ -12,3 +12,4 @@ const userSchema = new Schema({
 const UserModel = mongoose.model('user', userSchema);
 
 module.exports = UserModel;
+3

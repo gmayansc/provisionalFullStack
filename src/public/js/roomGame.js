@@ -25,7 +25,8 @@ $(document).ready(async function () {
     renderRooms(rooms);
     renderPlayers(rooms);
   }
-  // FUNCIONES GET DATA
+  
+  // FUNCIONES API GET
 
   function getUserFromLocalStorage() {
     const user = localStorage.getItem('user');
@@ -181,7 +182,6 @@ $(document).ready(async function () {
       row.append(playerSection);
       const stateSection = getRoomStateSection(room);
       row.append(stateSection);
-
       $(row).appendTo('.rooms-container');
     });
   }
